@@ -1,0 +1,11 @@
+.related-boxes-container{
+    background-color: #FFFFFF;
+    padding: 39px;
+    width: 61.5%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .related-boxes-container {
+      width: 100% !important;
+    }
+  }

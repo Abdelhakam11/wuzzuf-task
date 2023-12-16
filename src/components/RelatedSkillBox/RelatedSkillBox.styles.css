@@ -1,0 +1,42 @@
+.related-card-contianer{
+    background-color: #F0F0F0;
+    width: 100% !important;
+    border-radius: 5px;
+    padding: 20px 30px;
+    margin-bottom: 27px;
+}
+
+.related-heading{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: left;
+    color:black;
+}
+
+.related-subtitle{
+    margin-top: 24px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.detials-box{
+    display: flex;
+    margin-top: 24px;
+}
+
+.item-title{
+    margin-right: 117px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 1000px) {
+    .related-card-contianer {
+      width: 100% !important;
+    }
+  }

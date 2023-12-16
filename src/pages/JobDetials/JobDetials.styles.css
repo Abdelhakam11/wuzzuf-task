@@ -1,0 +1,27 @@
+.detials-page{
+    padding: 44px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.title-box{
+    width: 100%;
+}
+.detials-page h1{
+    margin-bottom: 54px;
+    font-size: 48px;
+}
+
+.job-detials-container{
+    gap: 44px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 900px) {
+    .detials-page h1 {
+      font-size: 30px;
+    }
+  }

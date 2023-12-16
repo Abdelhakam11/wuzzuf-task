@@ -1,0 +1,18 @@
+.search-container{
+    display: flex;
+    gap: 3.75%;
+    background-color: #F2F2F2;
+    justify-content: space-between;
+    padding: 35px 50px;
+    flex-wrap: wrap;
+    align-items: start;
+}
+.search-title{
+    width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .search-container {
+        gap: 50px !important;
+    }
+  }

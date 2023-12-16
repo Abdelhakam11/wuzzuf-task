@@ -1,0 +1,58 @@
+.job-card-container{
+    background-color: #FFFFFF;
+}
+.home-cards .job-card-container{
+    width: 48%;
+    padding: 36px;
+    margin-bottom: 2%;
+}
+.search-cards .job-card-container{
+    width: 45%;
+    padding: 26px;
+}
+.related-skills-title{
+    font-size: 24px;
+    line-height: 32.63px;
+    font-weight: 700;
+}
+
+.related-skills-heading{
+    margin: 16px 0;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.related-skills-body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.related-skill{
+    font-size: 18px;
+    padding: 5px 12px;
+    border-radius: 5px;
+    background-color: #C4C4C4;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.related-skill-subtitle{
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+
+@media only screen and (max-width: 900px) {
+    .job-card-container {
+      width: 90% !important;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .job-card-container {
+      width: 100% !important;
+    }
+  }

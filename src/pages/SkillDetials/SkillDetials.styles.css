@@ -1,0 +1,23 @@
+.detials-page{
+    padding: 44px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.title-box{
+    width: 100%;
+}
+.detials-page h1{
+    margin-bottom: 54px;
+    font-size: 48px;
+}
+
+.skill-detials-container{
+    gap: 44px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+

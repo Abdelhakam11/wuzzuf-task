@@ -1,0 +1,23 @@
+.related-boxes-container{
+    background-color: #FFFFFF;
+    padding: 39px;
+    width: 61.5%;
+}
+.description-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    margin-bottom: 50px;
+}
+.description-container h1{
+  font-size: 24px;
+}
+.description-container p{
+  font-size: 18px;
+  }
+@media only screen and (max-width: 1000px) {
+    .related-boxes-container {
+      width: 100% ;
+    }
+  }
